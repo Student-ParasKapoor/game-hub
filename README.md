@@ -111,7 +111,7 @@ GameHub is a React-based web application that allows users to browse, search, an
 
 ### Submission Context
 
--This project was developed as part of a recruitment test, showcasing skills in React, TypeScript, state management, API integration, authentication, and responsive design.
+- This project was developed as part of a recruitment test, showcasing skills in React, TypeScript, state management, API integration, authentication, and responsive design.
 
 ### Customization
 - **Repository URL**: Replace `<repository-url>` with your actual repo link if applicable (e.g., GitHub).
