@@ -39,49 +39,55 @@ GameHub is a React-based web application that allows users to browse, search, an
    cd game-hub
 
 2. **Install Dependencies**:
+    ```bash
     npm install
 
 3. **Configure Environment Variables**:
     -Create a .env file in the root directory.
     -Add your RAWG API key and Clerk keys:
+    ```bash
     REACT_APP_RAWG_API_KEY=your_rawg_api_key
     REACT_APP_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 
 4. **Add Bootstrap Icons**:
     -Ensure public/index.html includes:
+    ```bash
     <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
     />
 
 5. **Run the App**:
-    - npm start
+    ```bash
+    npm start
 
 6. **Build for Production**:
-    - npm run build
+    ```bash
+    npm run build
 
 7. **Project Structure**:
 
+    ```bash
     game-hub/
-├── public/
-│   └── index.html        # HTML template with Bootstrap Icons CDN
-├── src/
-│   ├── components/
-│   │   ├── Header.tsx    # Navbar with search and hamburger toggle
-│   │   └── Sidebar.tsx   # Filter controls
-│   ├── pages/
-│   │   ├── Home.tsx      # Game list with pagination
-│   │   ├── Library.tsx   # User’s favorite games
-│   │   └── GameDetail.tsx # Game details with back button
-│   ├── redux/
-│   │   └── slices/       # Redux Toolkit slices (favorites)
-│   ├── services/
-│   │   └── api.ts        # RAWG API fetch functions
-│   ├── styles/
-│   │   └── styles.css    # Custom CSS
-│   └── App.tsx           # Main app with routing and sidebar
-├── .env                  # Environment variables (not committed)
-├── package.json          # Dependencies and scripts
-└── README.md             # This file
+    ├── public/
+    │   └── index.html        # HTML template with Bootstrap Icons CDN
+    ├── src/
+    │   ├── components/
+    │   │   ├── Header.tsx    # Navbar with search and hamburger toggle
+    │   │   └── Sidebar.tsx   # Filter controls
+    │   ├── pages/
+    │   │   ├── Home.tsx      # Game list with pagination
+    │   │   ├── Library.tsx   # User’s favorite games
+    │   │   └── GameDetail.tsx # Game details with back button
+    │   ├── redux/
+    │   │   └── slices/       # Redux Toolkit slices (favorites)
+    │   ├── services/
+    │   │   └── api.ts        # RAWG API fetch functions
+    │   ├── styles/
+    │   │   └── styles.css    # Custom CSS
+    │   └── App.tsx           # Main app with routing and sidebar
+    ├── .env                  # Environment variables (not committed)
+    ├── package.json          # Dependencies and scripts
+    └── README.md             # This file
 
 ### Usage
 
